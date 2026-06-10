@@ -1,5 +1,7 @@
 package daysofCode;
 
+import java.util.Scanner;
+
 public class QueuesAndStacks {
     private LinkedList stack;
     private LinkedList queue;
@@ -7,6 +9,7 @@ public class QueuesAndStacks {
     public Solution() {
         this.stack = new LinkedList();
         this.queue = new LinkedList();
+
     }
 
     private char popCharacter() {
